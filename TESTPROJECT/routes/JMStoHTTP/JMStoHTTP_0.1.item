@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:id="_Ne8VUSAiEeu8Aa1tqsVRqg" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default" xmi:id="_Ne8VUiAiEeu8Aa1tqsVRqg">
+    <contextParameter comment="" name="brokerURL" prompt="Please enter the brocker URL" promptNeeded="false" type="id_String" value="&quot;tcp://localhost:61616&quot;" xmi:id="_Ne8VUyAiEeu8Aa1tqsVRqg"/>
+    <contextParameter comment="" name="username_jms" prompt="username_jms?" promptNeeded="false" repositoryContextId="_ra_50DX8EeW5dtX7d0ubwQ" type="id_String" value="tadmin" xmi:id="_Ne8VVCAiEeu8Aa1tqsVRqg"/>
+    <contextParameter comment="" name="password_jms" prompt="password_jms?" promptNeeded="false" repositoryContextId="_ra_50DX8EeW5dtX7d0ubwQ" type="id_Password" value="enc:system.encryption.key.v1:5A0QPkiV2G0tsonxTw0xDQXhrare9/+kC6OHSt7VYH9z+w==" xmi:id="_Ne8VVSAiEeu8Aa1tqsVRqg"/>
+    <contextParameter comment="" name="username_soap" prompt="username_soap?" promptNeeded="false" repositoryContextId="_ah5EIDX7EeW5dtX7d0ubwQ" type="id_String" value="tadmin" xmi:id="_Ne8VViAiEeu8Aa1tqsVRqg"/>
+    <contextParameter comment="" name="password_soap" prompt="password_soap?" promptNeeded="false" repositoryContextId="_ah5EIDX7EeW5dtX7d0ubwQ" type="id_Password" value="enc:system.encryption.key.v1:+r3M/qPHAri6pXksbJtkXFSqPFMhxIBbv4xstaNLrpBupQ==" xmi:id="_Ne8VVyAiEeu8Aa1tqsVRqg"/>
+  </context>
+  <parameters xmi:id="_Ne8VWCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0" xmi:id="_Ne8VWSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0" xmi:id="_Ne8VWiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_Ne8VWyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_Ne8VXCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_Ne8VXSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_Ne8VXiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_Ne8VXyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_Ne8VYCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_Ne8VYSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_Ne8VYiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_Ne8VYyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_Ne8VZCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_Ne8VZSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_Ne8VZiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_Ne8VZyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_Ne8VaCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_Ne8VaSAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__utwwARrEeGb2dr9_uAKEQ" name="DataOperation" xmi:id="_Ne8VaiAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__v3AQARrEeGb2dr9_uAKEQ" name="Mathematical" xmi:id="_Ne8VayAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__wCmcARrEeGb2dr9_uAKEQ" name="Numeric" xmi:id="_Ne8VbCAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__wWIcARrEeGb2dr9_uAKEQ" name="Relational" xmi:id="_Ne8VbSAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_mkQOEB8zEeGM8PtbS-QM0A" name="SQLike" xmi:id="_Ne8VbiAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__wstwARrEeGb2dr9_uAKEQ" name="StringHandling" xmi:id="_Ne8VbyAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__xEhMARrEeGb2dr9_uAKEQ" name="TalendDataGenerator" xmi:id="_Ne8VcCAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__xR8kARrEeGb2dr9_uAKEQ" name="TalendDate" xmi:id="_Ne8VcSAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__xibQARrEeGb2dr9_uAKEQ" name="TalendString" xmi:id="_Ne8VciAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__HobtjJVEeiYFf1bJ7c1ww" name="TalendStringUtil" xmi:id="_Ne8VcyAiEeu8Aa1tqsVRqg"/>
+  </parameters>
+  <node componentName="cJMS" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192" xmi:id="_Ne8VdCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cJMS_1" xmi:id="_Ne8VdSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="TYPE" value="queue" xmi:id="_Ne8VdiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="DESTINATION" value="&quot;IN&quot;" xmi:id="_Ne8VdyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="ROUTE_COMPONENT_TYPE" name="CONNECTION_FACOTRY_CONFIGURATION" value="cMQConnectionFactory_1" xmi:id="_Ne8VeCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="URI_OPTIONS" xmi:id="_Ne8VeSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="JMSIn" xmi:id="_Ne8VeiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_Ne8VeyAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192" xmi:id="_Ne8VfCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSOAP_1" xmi:id="_Ne8VfSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SERVICE_NS" show="false" value="" xmi:id="_Ne8VfiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="ADDRESS" value="&quot;http://localhost:8040/services/DemoService&quot;" xmi:id="_Ne8VfyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="SERVICE_TYPE" value="wsdlURL" xmi:id="_Ne8VgCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="WSDL_TYPE" value="file" xmi:id="_Ne8VgSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="FILE" name="WSDL_FILE" value="&quot;http://localhost:8040/services/DemoService?WSDL&quot;" xmi:id="_Ne8VgiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="ROUTE_RESOURCE_TYPE" name="WSDL_FILE_REPO" show="false" value="" xmi:id="_Ne8VgyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TECHNICAL" name="WSDL_FILE_REPO:ROUTE_RESOURCE_TYPE_VERSION" value="Latest" xmi:id="_Ne8VhCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SERVICE_CLASS" show="false" value="&quot;beans.ServiceClass&quot;" xmi:id="_Ne8VhSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="EXTERNAL" name="SERVICE_CONFIGURATION" value="" xmi:id="_Ne8VhiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="DATAFORMAT" value="PAYLOAD" xmi:id="_Ne8VhyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ALLOW_STREAMING" value="false" xmi:id="_Ne8ViCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="RAW_TOOLTIP" show="false" value=" (MESSAGE dataFormat without SAM Support)" xmi:id="_Ne8ViSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="CXF_MESSAGE_TOOLTIP" show="false" value=" (MESSAGE dataFormat plus SAM Support)" xmi:id="_Ne8ViiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ENABLE_CXF_MESSAGE_GZIP" value="false" xmi:id="_Ne8ViyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" value="&quot;{http://www.talend.org/service/}DemoService&quot;" xmi:id="_Ne8VjCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="PORT_NAME" value="&quot;{http://www.talend.org/service/}DemoServicePort&quot;" xmi:id="_Ne8VjSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OPERATION_NAME" value="&quot;{http://www.talend.org/service/}DemoServiceOperation&quot;" xmi:id="_Ne8VjiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ENABLE_REGISTRY" value="false" xmi:id="_Ne8VjyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ENABLE_SL" value="false" xmi:id="_Ne8VkCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ENABLE_SAM" value="false" xmi:id="_Ne8VkSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ENABLE_SAM_MESSAGE" show="false" value="false" xmi:id="_Ne8VkiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ENABLE_SECURITY" value="false" xmi:id="_Ne8VkyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_TYPE" show="false" value="BASIC" xmi:id="_Ne8VlCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="AUTHENTICATION_LABEL" show="false" value="Authentication:" xmi:id="_Ne8VlSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="SAML_SECURITY_TYPES" show="false" value="NO_PROPAGATE" xmi:id="_Ne8VliAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="PROPAGATE_UP_LABEL" show="false" value="" xmi:id="_Ne8VlyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="PROPAGATE_AP_LABEL" show="false" value="" xmi:id="_Ne8VmCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="USE_PROPAGATE_CREDENTIAL" show="false" value="false" xmi:id="_Ne8VmSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="ALIASNAME" show="false" value="&quot;&quot;" xmi:id="_Ne8VmiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="USERNAME" show="false" value="context.username_soap" xmi:id="_Ne8VmyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:G8xiaaBPgsz1EEaBG6PUBzLi2mbILPAl5nQVQ0MmfmMRG8gkZ0tdndvSI8jrZ/uRAQ==" xmi:id="_Ne8VnCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="USE_AUTHORIZATION" show="false" value="false" xmi:id="_Ne8VnSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="AUTHORIZATION_LABEL" show="false" value="Authorization:" xmi:id="_Ne8VniAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="ROLE_NAME" show="false" value="&quot;&quot;" xmi:id="_Ne8VnyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ENABLE_CORRELATION" value="false" xmi:id="_Ne8VoCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;" xmi:id="_Ne8VoSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="CORRELATION_VALUE_TOOLTIP" show="false" value="(Simple Expression is Available)" xmi:id="_Ne8VoiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false" xmi:id="_Ne8VoyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" xmi:id="_Ne8VpCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="SL_META_DATA" show="false" xmi:id="_Ne8VpSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="DemoServiceCXF" xmi:id="_Ne8VpiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_Ne8VpyAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cJMS" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192" xmi:id="_Ne8VqCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cJMS_2" xmi:id="_Ne8VqSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="TYPE" value="queue" xmi:id="_Ne8VqiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="DESTINATION" value="&quot;OUT&quot;" xmi:id="_Ne8VqyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="ROUTE_COMPONENT_TYPE" name="CONNECTION_FACOTRY_CONFIGURATION" value="cMQConnectionFactory_1" xmi:id="_Ne8VrCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="URI_OPTIONS" xmi:id="_Ne8VrSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="JMSOut" xmi:id="_Ne8VriAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_Ne8VryAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cMQConnectionFactory" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128" xmi:id="_Ne8VsCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cMQConnectionFactory_1" xmi:id="_Ne8VsSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="MQ_TYPE" value="ActiveMQ" xmi:id="_Ne8VsiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="USE_TRANSACTION" value="false" xmi:id="_Ne8VsyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQ_BROKER_URI" value="context.brokerURL" xmi:id="_Ne8VtCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="IS_AMQ_HTTP_BROKER" value="false" xmi:id="_Ne8VtSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="AMQ_POOL" value="false" xmi:id="_Ne8VtiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_MAX_CONNECTIONS" show="false" value="1" xmi:id="_Ne8VtyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_MAX_ACTIVE" show="false" value="500" xmi:id="_Ne8VuCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_IDLE_TIMEOUT" show="false" value="30000" xmi:id="_Ne8VuSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQ_POOL_EXPIRY_TIMEOUT" show="false" value="1" xmi:id="_Ne8VuiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="AMQ_AUTH" value="true" xmi:id="_Ne8VuyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQ_USERNAME" value="context.username_jms" xmi:id="_Ne8VvCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="AMQ_PASSWORD" value="enc:system.encryption.key.v1:srdhMLwEB+Thh/htxz4PKQN4Bk/VFDRvvkOoTQOWGInI4ZK91kWQLrWL55kR96ww" xmi:id="_Ne8VvSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="AMQ_USE_RETROACTIVE_CONSUMER" value="false" xmi:id="_Ne8VviAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WQM_SEVER" show="false" value="&quot;localhost&quot;" xmi:id="_Ne8VvyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_PORT" show="false" value="&quot;1414&quot;" xmi:id="_Ne8VwCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="WMQ_TRANSPORT_TYPE" show="false" value="1" xmi:id="_Ne8VwSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_QUEUE_MANAGER" show="false" value="&quot;mq.queue.manager&quot;" xmi:id="_Ne8VwiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_CHANNEL" show="false" value="&quot;SYSTEM.DEF.SVRCONN&quot;" xmi:id="_Ne8VwyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="WMQ_AUTH" show="false" value="false" xmi:id="_Ne8VxCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_USERNAME" show="false" value="&quot;&quot;" xmi:id="_Ne8VxSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="WMQ_PASSWORD" show="false" value="enc:system.encryption.key.v1:2Au3ZSlkrbDhwUgP9x+Y9lCm5ypfZrieV/ugulPtZNyljVh8k5CFWA==" xmi:id="_Ne8VxiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="WMA_JAR_LABEL" show="false" value="(Note:Need add com.ibm.mq.jar, com.ibm.mq.jmqi.jar,&#10;&#9;&#9;&#9;&#9;com.ibm.mqjms.jar, dhbcore.jar)" xmi:id="_Ne8VxyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="WMQ_DRIVER_JAR" show="false" xmi:id="_Ne8VyCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_N_SEVER" show="false" value="&quot;localhost&quot;" xmi:id="_Ne8VySAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_N_PORT" show="false" value="&quot;1414&quot;" xmi:id="_Ne8VyiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_N_CHANNEL" show="false" value="&quot;channel.name&quot;" xmi:id="_Ne8VyyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_N_NAME" show="false" value="&quot;default&quot;" xmi:id="_Ne8VzCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="WMQ_N_AUTH" show="false" value="false" xmi:id="_Ne8VzSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_N_CCSID" show="false" value="&quot;&quot;" xmi:id="_Ne8VziAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="WMQ_N_USERNAME" show="false" value="&quot;&quot;" xmi:id="_Ne8VzyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="WMQ_N_PASSWORD" show="false" value="enc:system.encryption.key.v1:qCoFtyaUDZrtakbePbSRMqLdjtFua8qYVrAye0eI" xmi:id="_Ne8V0CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="WMQ_N_JAR_LABEL" show="false" value="(Note:Need add com.ibm.mq.jar, com.ibm.mq.commonservices.jar, com.ibm.mq.headers.jar, com.ibm.mq.jmqi.jar, connector.jar)" xmi:id="_Ne8V0SAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="WMQ_N_DRIVER_JAR" show="false" xmi:id="_Ne8V0iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQP_BROKER_URI" show="false" value="&quot;localhost&quot;" xmi:id="_Ne8V0yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQP_PORT" show="false" value="&quot;5672&quot;" xmi:id="_Ne8V1CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="AMQP_SSL" show="false" value="false" xmi:id="_Ne8V1SAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="AMQP_USE_AUTH" show="false" value="false" xmi:id="_Ne8V1iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="AMQP_USERNAME" show="false" value="&quot;guest&quot;" xmi:id="_Ne8V1yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="AMQP_PASSWORD" show="false" value="enc:system.encryption.key.v1:Dw3h1rRhCEIg2sizEk11s7AwvDAlBsaJ+02QBhNPIzS3dFrvPA8TYg==" xmi:id="_Ne8V2CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_HOST" show="false" value="&quot;127.0.0.1&quot;" xmi:id="_Ne8V2SAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_PORT" show="false" value="1883" xmi:id="_Ne8V2iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="MQTT_SSL" show="false" value="false" xmi:id="_Ne8V2yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="FILE" name="MQTT_SSL_TRUST_STORE" show="false" value="" xmi:id="_Ne8V3CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="MQTT_SSL_TRUST_STORE_PASSWORD" show="false" value="" xmi:id="_Ne8V3SAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="FILE" name="MQTT_SSL_KEY_STORE" show="false" value="" xmi:id="_Ne8V3iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="MQTT_SSL_KEY_STORE_PASSWORD" show="false" value="" xmi:id="_Ne8V3yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_CONNECT_ATTEMPTS" show="false" value="-1" xmi:id="_Ne8V4CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_RECONNECT_ATTEMPTS" show="false" value="-1" xmi:id="_Ne8V4SAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_RECONNECT_DELAY" show="false" value="10" xmi:id="_Ne8V4iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="MQTT_QOS" show="false" value="AtLeastOnce" xmi:id="_Ne8V4yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_CONNECT_WAIT_IN_SECONDS" show="false" value="10" xmi:id="_Ne8V5CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_DISCONNECT_WAIT_IN_SECONDS" show="false" value="5" xmi:id="_Ne8V5SAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_SEND_WAIT_IN_SECONDS" show="false" value="5" xmi:id="_Ne8V5iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="MEMO_JAVA" name="OTHER_CODE" show="false" value="&#10;&#9;&#9;&#9;&#9;/*&#10;&#9;&#9;&#9;&#9;* Please specify &quot;jmsConnectionFactory&quot; here&#10;&#9;&#9;&#9;&#9;*/&#10;&#9;&#9;&#9;&#9;//jmsConnectionFactory = new org.apache.activemq.ActiveMQConnectionFactory(&quot;vm://localhost?broker.persistent=false&quot;);&#10;&#9;&#9;&#9;" xmi:id="_Ne8V5yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="OTHER_DRIVER_JAR" show="false" xmi:id="_Ne8V6CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="MQTT_AUTH" show="false" value="false" xmi:id="_Ne8V6SAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MQTT_USERNAME" show="false" value="&quot;&quot;" xmi:id="_Ne8V6iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="PASSWORD" name="MQTT_PASSWORD" show="false" value="enc:system.encryption.key.v1:FznSOfOiUCZWrQ54dEZ1J0rU/3R8DLtxDyaDkVhp" xmi:id="_Ne8V6yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="AMQConnectionFactory" xmi:id="_Ne8V7CAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_Ne8V7SAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <connection connectorName="ROUTE" label="route1" lineStyle="14" metaname="cJMS_1" offsetLabelX="0" offsetLabelY="0" source="cJMS_1" target="cSOAP_1" xmi:id="_Ne8V7iAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route1" xmi:id="_Ne8V7yAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route2" lineStyle="14" metaname="cSOAP_1" offsetLabelX="0" offsetLabelY="0" source="cSOAP_1" target="cJMS_2" xmi:id="_Ne8V8CAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route2" xmi:id="_Ne8V8SAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <note opaque="true" posX="32" posY="32" sizeHeight="65" sizeWidth="609" text="This route demonstrates how JMS messages from a Queue can be &#13;&#10;forwarded as requests to a service and responses sent back to JMS." xmi:id="_Ne8V8iAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="FONT_SIZE" value="11" xmi:id="_Ne8V8yAiEeu8Aa1tqsVRqg"/>
+  </note>
+  <note opaque="true" posX="32" posY="256" sizeHeight="193" sizeWidth="609" text="To see that scenario working you need to do following&#13;&#10;&#9;- Export and deploy data service DemoService (from Integration perspective)&#13;&#10;&#9;   to the Talend ESB Runtime.&#13;&#10;&#9;- Start ActiveMQ&#13;&#10;&#9;- Route expects ActiveMQ is started on the localhost, if not please modify the&#13;&#10;&#9;   JMStoHTTP context value.&#13;&#10;Scenario includes 3 routes:&#13;&#10;&#9;- JMStoHTTP reads form the IN queue and send responses to the OUT queue&#13;&#10;&#9;- SendToJMS fills the the IN queue&#13;&#10;&#9;- ReceiveFromJMS is reading the OUT queue" xmi:id="_Ne8V9CAiEeu8Aa1tqsVRqg"/>
+  <subjob xmi:id="_Ne8V9SAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cJMS_1" xmi:id="_Ne8V9iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_Ne8V9yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_Ne8V-CAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_Ne8V-SAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSOAP_1" xmi:id="_Ne8V-iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_Ne8V-yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_Ne8V_CAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_Ne8V_SAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cJMS_2" xmi:id="_Ne8V_iAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_Ne8V_yAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_Ne8WACAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_Ne8WASAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cMQConnectionFactory_1" xmi:id="_Ne8WAiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_Ne8WAyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_Ne8WBCAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_db2b4495-56c1-4119-854c-dc452664e602"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uYa5KadT9H6VcKrsSD89tkruoNab1WPQI44w+OJgiADNTAPNamANNM/j1tj+IYuvWtKYkoCt9SZ9&#13;
+4GvdzKL4ig==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c9049431-a2ae-47d1-8f0d-4ef876a1913e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CSQAApuSA06GepMvwMAPGpbPCM8ZMRzkP71g3Rl0Vl8iqCEmHtEYz1QDuAIEIwdjYuQNs/u8XRqK&#13;
+RTsdCRTrrQ==</DigestValue></Reference></SignedInfo><SignatureValue>CiOA+BtlGua82ckvXx+3WXBMterLkUJQ0WTUUCSmD0mpqVXuctpW5a8AZV57jWw1u3a0mBgY9Yi8&#13;
+oDHnTuIqOXZjDMmroW5WUuXUISs9pnhWZBWASPp8t538y2PbPzChUpN9Kt4K3A/dJ5df39xxnEsE&#13;
+CypuZYTtWxbTitzv7epOL9VmCJGXsMzi41dK+cHPLDXL5VPtqvqR2fMCVRVWBFwYGuOCzuM7RFAD&#13;
+z93HoAeZo/+8JQAUsKMDb5CuDqN1/OhY+qYdfk3Ia1tApp8JnfvWiJrAYXfQiqd4N6pHV3v5EfLY&#13;
++XrorJnoHrFx667P5vL/KUNCXlrp3aplguMnEw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c9049431-a2ae-47d1-8f0d-4ef876a1913e" Target="#_db2b4495-56c1-4119-854c-dc452664e602"><Timestamp>2020-11-06 11:21:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

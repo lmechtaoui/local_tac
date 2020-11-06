@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:id="_NdOeECAiEeu8Aa1tqsVRqg" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default" xmi:id="_NdOeESAiEeu8Aa1tqsVRqg"/>
+  <parameters xmi:id="_NdOeEiAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0" xmi:id="_NdOeEyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0" xmi:id="_NdOeFCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_NdOeFSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_NdOeFiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_NdOeFyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_NdOeGCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_NdOeGSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_NdOeGiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_NdOeGyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_NdOeHCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_NdOeHSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_NdOeHiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_NdOeHyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_NdOeICAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_NdOeISAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_NdOeIiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_NdOeIyAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gC_awKV2EeK7dooP_WGoMg" name="DataOperation" xmi:id="_NdOeJCAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gDZDYKV2EeK7dooP_WGoMg" name="Mathematical" xmi:id="_NdOeJSAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gDbfoKV2EeK7dooP_WGoMg" name="Numeric" xmi:id="_NdOeJiAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gDdU0KV2EeK7dooP_WGoMg" name="Relational" xmi:id="_NdOeJyAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gDfKAKV2EeK7dooP_WGoMg" name="StringHandling" xmi:id="_NdOeKCAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gDg_MKV2EeK7dooP_WGoMg" name="TalendDataGenerator" xmi:id="_NdOeKSAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gDiNUKV2EeK7dooP_WGoMg" name="TalendDate" xmi:id="_NdOeKiAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_gDjbcKV2EeK7dooP_WGoMg" name="TalendString" xmi:id="_NdOeKyAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="_-9yjMjJVEeiYFf1bJ7c1ww" name="SQLike" xmi:id="_NdOeLCAiEeu8Aa1tqsVRqg"/>
+    <routinesParameter id="__HobtjJVEeiYFf1bJ7c1ww" name="TalendStringUtil" xmi:id="_NdOeLSAiEeu8Aa1tqsVRqg"/>
+  </parameters>
+  <node componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="32" posY="192" xmi:id="_NdOeLiAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cDirect_1" xmi:id="_NdOeLyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="INPUT_ENDPOINT_NAME" show="false" value="false" xmi:id="_NdOeMCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" show="false" value="" xmi:id="_NdOeMSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="NAME" value="&quot;a&quot;" xmi:id="_NdOeMiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" show="false" xmi:id="_NdOeMyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="Direct_A" xmi:id="_NdOeNCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOeNSAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cTimer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="128" xmi:id="_NdOeNiAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cTimer_1" xmi:id="_NdOeNyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="PERIOD" value="1000" xmi:id="_NdOeOCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="REPEATCOUNT" value="6" xmi:id="_NdOeOSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="DELAY" value="1000" xmi:id="_NdOeOiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="FIXEDRATE" value="false" xmi:id="_NdOeOyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="DAEMON" value="true" xmi:id="_NdOePCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="SET_TIME" value="false" xmi:id="_NdOePSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="TIME" show="false" value="&quot;&quot;" xmi:id="_NdOePiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="(yyyy-MM-dd HH:mm:ss | yyyy-MM-dd'T'HH:mm:ss)" xmi:id="_NdOePyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="Starter" xmi:id="_NdOeQCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOeQSAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="128" xmi:id="_NdOeQiAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_1" xmi:id="_NdOeQyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="LANGUAGES" value="constant" xmi:id="_NdOeRCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="EXPRESSION" value="&quot;Hello Direct&quot;" xmi:id="_NdOeRSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_NdOeRiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_NdOeRyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_NdOeSCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="Set_Direct_Input" xmi:id="_NdOeSSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOeSiAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128" xmi:id="_NdOeSyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cDirect_2" xmi:id="_NdOeTCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" xmi:id="_NdOeTSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_1" xmi:id="_NdOeTiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="NAME" show="false" value="&quot;&quot;" xmi:id="_NdOeTyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" show="false" xmi:id="_NdOeUCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="To_Direct_A" xmi:id="_NdOeUSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOeUiAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cSEDA" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="192" xmi:id="_NdOeUyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSEDA_1" xmi:id="_NdOeVCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cSEDA_2" xmi:id="_NdOeVSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="NAME" show="false" value="&quot;&quot;" xmi:id="_NdOeViAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="SPECIFY_SIZE" show="false" value="false" xmi:id="_NdOeVyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SIZE" show="false" value="0" xmi:id="_NdOeWCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONCURRENT_CONSUMERS" show="false" value="1" xmi:id="_NdOeWSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="WAIT_FOR_TASK_TO_COMPLETE" show="false" value="&quot;IfReplyExpected&quot;" xmi:id="_NdOeWiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="TIMEOUT" show="false" value="30000" xmi:id="_NdOeWyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="MULTIPLE_CONSUMERS" show="false" value="false" xmi:id="_NdOeXCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="LIMIT_CONCURRENT_CONSUMERS" show="false" value="true" xmi:id="_NdOeXSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="BLOCK_WHEN_FULL" show="false" value="false" xmi:id="_NdOeXiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="POLLTIMEOUT" show="false" value="1000" xmi:id="_NdOeXyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" show="false" xmi:id="_NdOeYCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="To_SEDA_A" xmi:id="_NdOeYSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOeYiAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192" xmi:id="_NdOeYyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_1" xmi:id="_NdOeZCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LOGGING_CATEGORY" value="&quot;Print_Direct_MSG_cLog_1&quot;" xmi:id="_NdOeZSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN" xmi:id="_NdOeZiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="NOTHING" value="true" xmi:id="_NdOeZyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="GROUP_SIZE" value="false" xmi:id="_NdOeaCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SIZE" show="false" value="1" xmi:id="_NdOeaSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="GROUP_INTERVAL" value="false" xmi:id="_NdOeaiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="INTERVAL" show="false" value="1" xmi:id="_NdOeayAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="DELAY" show="false" value="0" xmi:id="_NdOebCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ACTIVE_ONLY" show="false" value="true" xmi:id="_NdOebSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="FORMAT" value="false" xmi:id="_NdOebiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="ARGUMENTS" show="false" xmi:id="_NdOebyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="USE_LOGEIP" value="false" xmi:id="_NdOecCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MESSAGE" show="false" value="&quot;&quot;" xmi:id="_NdOecSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="Print_Direct_MSG" xmi:id="_NdOeciAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOecyAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cSEDA" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="32" posY="256" xmi:id="_NdOedCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSEDA_2" xmi:id="_NdOedSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" show="false" value="" xmi:id="_NdOediAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="NAME" value="&quot;a&quot;" xmi:id="_NdOedyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="SPECIFY_SIZE" value="false" xmi:id="_NdOeeCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SIZE" show="false" value="0" xmi:id="_NdOeeSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONCURRENT_CONSUMERS" value="1" xmi:id="_NdOeeiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="WAIT_FOR_TASK_TO_COMPLETE" value="&quot;IfReplyExpected&quot;" xmi:id="_NdOeeyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="30000" xmi:id="_NdOefCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="MULTIPLE_CONSUMERS" value="false" xmi:id="_NdOefSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="LIMIT_CONCURRENT_CONSUMERS" value="true" xmi:id="_NdOefiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="BLOCK_WHEN_FULL" value="false" xmi:id="_NdOefyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="POLLTIMEOUT" value="1000" xmi:id="_NdOegCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="ADVARGUMENTS" xmi:id="_NdOegSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="SEDA_A" xmi:id="_NdOegiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOegyAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256" xmi:id="_NdOehCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_2" xmi:id="_NdOehSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LOGGING_CATEGORY" value="&quot;Print_SEDA_MSG_cLog_2&quot;" xmi:id="_NdOehiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN" xmi:id="_NdOehyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="NOTHING" value="true" xmi:id="_NdOeiCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="GROUP_SIZE" value="false" xmi:id="_NdOeiSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="SIZE" show="false" value="1" xmi:id="_NdOeiiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="GROUP_INTERVAL" value="false" xmi:id="_NdOeiyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="INTERVAL" show="false" value="1" xmi:id="_NdOejCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="DELAY" show="false" value="0" xmi:id="_NdOejSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="ACTIVE_ONLY" show="false" value="true" xmi:id="_NdOejiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="FORMAT" value="false" xmi:id="_NdOejyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="ARGUMENTS" show="false" xmi:id="_NdOekCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="RADIO" name="USE_LOGEIP" value="false" xmi:id="_NdOekSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="MESSAGE" show="false" value="&quot;&quot;" xmi:id="_NdOekiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="Print_SEDA_MSG" xmi:id="_NdOekyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOelCAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <node componentName="cSetBody" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192" xmi:id="_NdOelSAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_2" xmi:id="_NdOeliAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CLOSED_LIST" name="LANGUAGES" value="constant" xmi:id="_NdOelyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="EXPRESSION" value="&quot;Hello SEDA&quot;" xmi:id="_NdOemCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="CHECK" name="USE_NAMESPACES" show="false" value="false" xmi:id="_NdOemSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TABLE" name="NAMESPACES" show="false" xmi:id="_NdOemiAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="LABEL" name="WARNING" show="false" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#10;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#10;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." xmi:id="_NdOemyAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="LABEL" value="Set_SEDA_Input" xmi:id="_NdOenCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_NdOenSAiEeu8Aa1tqsVRqg"/>
+  </node>
+  <connection connectorName="ROUTE" label="route2" lineStyle="14" metaname="cDirect_1" offsetLabelX="0" offsetLabelY="0" source="cDirect_1" target="cLog_1" xmi:id="_NdOeniAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route2" xmi:id="_NdOenyAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route4" lineStyle="14" metaname="cTimer_1" offsetLabelX="0" offsetLabelY="0" source="cTimer_1" target="cSetBody_1" xmi:id="_NdOeoCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route4" xmi:id="_NdOeoSAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route5" lineStyle="14" metaname="cSetBody_1" offsetLabelX="0" offsetLabelY="0" source="cSetBody_1" target="cDirect_2" xmi:id="_NdOeoiAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route5" xmi:id="_NdOeoyAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route3" lineStyle="14" metaname="cLog_1" offsetLabelX="0" offsetLabelY="0" source="cLog_1" target="cSetBody_2" xmi:id="_NdOepCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route3" xmi:id="_NdOepSAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route1" lineStyle="14" metaname="cSEDA_2" offsetLabelX="0" offsetLabelY="0" source="cSEDA_2" target="cLog_2" xmi:id="_NdOepiAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route1" xmi:id="_NdOepyAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <connection connectorName="ROUTE" label="route6" lineStyle="14" metaname="cSetBody_2" offsetLabelX="0" offsetLabelY="0" source="cSetBody_2" target="cSEDA_1" xmi:id="_NdOeqCAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="route6" xmi:id="_NdOeqSAiEeu8Aa1tqsVRqg"/>
+  </connection>
+  <note opaque="true" posX="32" posY="0" sizeHeight="97" sizeWidth="417" text="To check the result on Talend ESB Runtime:&#13;&#10;&#9;1. open log/tesb.log&#13;&#10;or&#13;&#10;&#9;2. execute log:tail to check the log output on Console " xmi:id="_NdOeqiAiEeu8Aa1tqsVRqg"/>
+  <subjob xmi:id="_NdOeqyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cDirect_1" xmi:id="_NdOerCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOerSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOeriAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOeryAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cTimer_1" xmi:id="_NdOesCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOesSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOesiAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOesyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_1" xmi:id="_NdOetCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOetSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOetiAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOetyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cDirect_2" xmi:id="_NdOeuCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOeuSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOeuiAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOeuyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSEDA_1" xmi:id="_NdOevCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOevSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOeviAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOevyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_1" xmi:id="_NdOewCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOewSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOewiAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOewyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSEDA_2" xmi:id="_NdOexCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOexSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOexiAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOexyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cLog_2" xmi:id="_NdOeyCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOeySAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOeyiAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+  <subjob xmi:id="_NdOeyyAiEeu8Aa1tqsVRqg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="cSetBody_2" xmi:id="_NdOezCAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="160;190;240" xmi:id="_NdOezSAiEeu8Aa1tqsVRqg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" xmi:id="_NdOeziAiEeu8Aa1tqsVRqg"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2b755a0e-684f-422d-83d6-aa1929c787ec"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>a0htI9Y+vzkSwsoWiPWRCkTV6siypso7/PE8IO39555l60z7KSqhLZr2qa7KGUozFpPmx33CxT3l&#13;
++clHLU+0jw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4925546c-d61a-4795-863d-2185f86632d6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UUu+wY7MdKnOhZnFVOqW7ExF2SGU9h+jTRjQii6CKVGMIi1W7b9m3qm4wmwk4SL/ruJOx7FZeTTj&#13;
+VmtAPpimEA==</DigestValue></Reference></SignedInfo><SignatureValue>XumjMQAJoHTVjkYyghOjZKOjJQXUs6cVXai8zq3ONCa4ej9WUA3s2VckdeZySHnfGfdPq2XTBj8O&#13;
+W8YwbXWluUDoia8Y+mpO1XwbxYNjVBc7h7d3rA7kueUnMg6qI/MZu6l9DlF4fYl2s5Ye2TDcEJUO&#13;
+PfNvYHKM9TVNnQcGAC3H9yz9+TjZi3kIrT9P+Zi4LRW7t8bffi9ZqfTHpoiU2XfDQ2wpBLGgyCZc&#13;
+sEabtsYIjkJUOBcez+dntTm9/fujgxlYJrVyHm+oIhiopdRlzqyZnb2U0/HFmKVaaguir0cYVGGP&#13;
+5yqxf9TTBbgmL3cv1PfKIE8O6vUB/g3L9x970w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4925546c-d61a-4795-863d-2185f86632d6" Target="#_2b755a0e-684f-422d-83d6-aa1929c787ec"><Timestamp>2020-11-06 11:21:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
